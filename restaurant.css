@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #302f2e;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin: 0%;
+}
+
+nav {
+    height: 7vh;
+    color: #ffffff;
+    background-color: #ce8b0f;
+    font-weight: 200;
+    padding: 2em 3em 1em 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: 400;
+    width: 20%;
+    padding-right: 3em;
+}
+
+#backdrop {
+    height: 70vh;
+    background-image: url("https://i.imgur.com/osLkmt4.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#slogan1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+#slogan2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.blank {
+    width: 8rem;
+    height: 0.3rem;
+    background-color: #ce8b0f;
+    border-radius: 50%;
+}
+
+.head {
+    margin: 2rem 0rem 2rem 0rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.booking1 {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+#booking {
+    height: 65vh;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form {
+    height: 70vh;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#colour {
+    color: #ce8b0f;
+}
+
+input {
+    display: block;
+}
+
+.box {
+    width: 350px;
+    height: 40px;
+    margin: 0.5rem 0rem 0.7rem 0rem;
+
+}
+
+button {
+    background-color: #ce8b0f;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+    transition: color 0.25s, box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+button:hover {
+    border-color: #f6f6f6;
+    ;
+    color: #f6f6f6;
+    ;
+    box-shadow: 0em 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor:
+        pointer;
+}
+
+.course {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.meal {
+    width: 500px;
+    height: 200px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2em 0em 2em 0em;
+    border-radius: 20px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 0.5em;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 1.2em;
+    margin: 2em 0em 1em 0em;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 1.2em;
+    width: 200px;
+}
+
+.price {
+    color: #ce8b0f;
+    display: block;
+    margin-left: 15em;
+    margin-top: 2em;
+}
+
+#jollof {
+    background-image: url("https://i.imgur.com/L9Ry4Lc.jpeg")
+}
+
+#fried {
+    background-image: url("https://i.imgur.com/HIGCM9s.jpeg")
+}
+
+#amala {
+    background-image: url("https://i.imgur.com/QDqL0Kp.jpeg");
+}
+
+#efo {
+    background-image: url("https://i.imgur.com/PPqEfKk.jpeg");
+}
+
+#okra {
+    background-image: url("https://i.imgur.com/HO5bs1J.jpeg")
+}
+
+#ewedu {
+    background-image: url("https://i.imgur.com/9Ettgqj.jpeg");
+}
+
+#intro {
+    width: 350px;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+#about {
+    margin: 2.5em 1.5em 4em 4em;
+    background-color: #f6f6f6;
+    width: 89%;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+#ola {
+    background-image: url("https://i.imgur.com/A2Z0Yek.jpg");
+    background-repeat: no-repeat;
+}
+
+#enquiry {
+    display: flex;
+    justify-content: center;
+}
+
+#box {
+    height: 70px;
+}
+
+footer {
+    height: 30vh;
+    background-color: #fcf8f1;
+    color: #3f3d3a;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 70px 0px 5px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.5;
+}
+
+a:hover {
+    color: #c7ede2;
+}
+
+.name a {
+    color: #302f2e;
+}

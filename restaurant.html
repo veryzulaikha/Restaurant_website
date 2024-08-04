@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="C:\my folders\Codes\web development\restaurant\restaurant.css">
+    <title>Olabisirestaurant.ng</title>
+</head>
+
+<body>
+    <nav>
+        <div id="logo">OLÁBĺSĺ</div>
+        <div><a href="#">HOME</a></div>
+        <div><a href="#">BOOK A TABLE</a></div>
+        <div><a href="#">RESTAURANT MENU</a></div>
+        <div><a href="#">ABOUT</a></div>
+        <div><a href="#">ENQUIRY</a></div>
+    </nav>
+    <main>
+
+        <section>
+            <div id="backdrop">
+                <p id="slogan1" class="slogan">EAT GOOD, FEEL GOOD</p>
+                <p id="slogan2" class="slogan">Wonderful Food With Wonderful People</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="head">
+                <h1>BOOK A TABLE</h1>
+                <div class="blank"></div>
+            </div>
+            <div class="booking1">
+                <div id="booking">
+                    <h3>Opening Hours:</h3>
+                    <p>Monday - Saturday</p>
+                    <p>11:00 AM - 09:00 PM</p>
+                    <h3>Additional Info:</h3>
+                    <p>Phone: <span id="colour">+234 81 4429 0681</span></p>
+                    <p>Address: Shop 20, Ayoola Shopping Plaza, Orita-Challenge, Ibadan, Oyo State</p>
+                </div>
+                <div>
+                    <form action="#" class="form">
+                        <div>
+                            <label for="table">Choose Table Size</label><br>
+                            <select name="table" class="box">
+                                <option value="single">Single</option>
+                                <option value="couple">Couple</option>
+                                <option value="group">Group</option>
+                                <option value="family">Family</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="day">Choose a Day</label>
+                            <input type="date" id="day" class="box" name="date-start" value="2024-07-30"
+                                min="2024-07-30" max="2024-12-31" required />
+
+                        </div>
+                        <div>
+                            <label for="appt">Choose a Time</label>
+                            <input type="time" id="appt" class="box" name="appt" min="11:00" max="21:00" required />
+                        </div>
+                        <button id="button1" class="box"><a href="#">Book Reservation</a></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="head">
+                <h1>RESTAURANT MENU</h1>
+                <div class="blank"></div>
+            </div>
+            <div id="menu">
+                <div>
+                    <h2 class="course">MAIN DISH</h2>
+                    <div class="meal">
+                        <div class="pic" id="jollof"></div>
+                        <div>
+                            <p class="name"><a href="#">Jollof Rice</a></p>
+                            <p class="description">A plate of smoky jollof cooked in red tomato
+                                stew.
+                                Served with fried turkey </p><span class="price">₦5000</span>
+                        </div>
+                    </div>
+                    <div class="meal">
+                        <div class="pic" id="fried"></div>
+                        <div>
+                            <p class="name"><a href="#">Fried Rice</a></p>
+                            <p class="description"> A portion of fried rice garnished with prawns,
+                                carrots, <br>peas and sweet corn. Served with grilled chicken</p> <span
+                                class="price">₦5000</span>
+                        </div>
+                    </div>
+                    <div class="meal">
+                        <div class="pic" id="amala"></div>
+                        <div>
+                            <p class="name"><a href="#">Swallow</a></p>
+                            <p class="description"> A wrap of any swallow of your choice. Available
+                                swallow are semo, amala, fufu and eba </p> <span class="price">₦500</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="course">SOUPS</h2>
+                    <div class="meal">
+                        <div class="pic" id="efo"></div>
+                        <div>
+                            <p class="name"> <a href="#">Efo Riro</a></p>
+                            <p class="description"> The classic efo riro is made from water leaf, pumpkin leaf and
+                                spinach cooked in fried stew. Served with assorted cow offals
+                            </p>
+                            <span class="price">₦3000
+                                </ span>
+                        </div>
+                    </div>
+                    <div class="meal">
+                        <div class="pic" id="okra"></div>
+                        <div>
+                            <p class="name"><a href="#">Okra Soup</a></p>
+                            <p class="description">The okro soup is made from the okra fruit, diced
+                                and cooked in fried stew. Served with fish </p> <span class="price">₦3000</span>
+                        </div>
+                    </div>
+                    <div class="meal">
+                        <div class="pic" id="ewedu"></div>
+                        <div>
+                            <p class="name"><a href="#">Ewedu Soup</a></p>
+                            <p class="description"> This soup is made from jute leaves. Served with
+                                stew and beef/fish </p> <span class="price">₦3000</span>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <section>
+            <div>
+                <div id="about" class="booking1">
+                    <div id="ola" class="form"></div>
+                    <div id="aboutus">
+                        <h1>ABOUT US</h1>
+                        <div class="blank"></div>
+                        <p id="intro">OLÁBĺSĺ is a restaurant in the heart of Ibadan, the capital city of Oyo state. The
+                            restaurant
+                            was
+                            founded in year 2020 by Chef Olabisi Munirudeen who specialises in Nigerian cuisines.
+                            Specifiaclly, food of Yoruba origin </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="head">
+                <h1>ENQUIRY</h1>
+                <DIV class="blank"></DIV>
+            </div>
+            <div id="enquiry">
+                <form action="#" class="form">
+                    <div>
+                        <div class="">
+                            <input type="text" placeholder="NAME" class="box">
+                        </div>
+                        <div class="">
+                            <input type="text" placeholder="PHONE" class="box">
+                        </div>
+                    </div>
+                    <div class="">
+                        <input type="text" placeholder="EMAIL" class="box">
+                    </div>
+                    <div class="">
+                        <input type="textarea" placeholder="MESSAGE" class="box" id="box">
+                    </div>
+                    <button id="button2" class="box"><a href="#">MAKE ENQUIRY</a></button>
+                </form>
+            </div>
+
+        </section>
+
+
+    </main>
+</body>
+<footer>Copyright © 2024 OLÁBĺSĺ RESTAURANT. Designed by Munirudeen Olabisi Suliyat U21DLCS10034. All rights
+    reserved.</footer>
+
+</html>
